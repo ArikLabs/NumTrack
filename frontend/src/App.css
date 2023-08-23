@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.counter {
+  margin-top: 20px;
+}
+
+.historical {
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.historical-list {
+  list-style: none;
+  padding: 0;
+}
+
+.historical-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.historical-text {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition:
+    border-color 0.3s,
+    background-color 0.3s;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.historical-text:hover {
+  border-color: #e74c3c;
+  background-color: #1a1a1a;
+}
+
+.historical-item:last-child {
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 3em;
+}
+
+button:hover {
+  border-color: #0a1081;
+}
+
+button:focus {
+  outline: none;
+  border-color: #e7e8f6;
+}
