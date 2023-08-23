@@ -8,5 +8,3 @@ new-task.json
 /dist
 /build
 /backend/config
-
-package-lock.json
